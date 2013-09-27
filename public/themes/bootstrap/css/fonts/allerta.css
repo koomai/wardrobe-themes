@@ -1,0 +1,11 @@
+/* Load Google Fonts */
+@import url(//fonts.googleapis.com/css?family=Squada+One|Allerta);
+
+h1, h2, h3, h4 {
+    font-family: 'Squada One', sans-serif;
+    text-transform: uppercase;
+}
+
+body, p {
+    font-family: 'Allerta', sans-serif;
+}

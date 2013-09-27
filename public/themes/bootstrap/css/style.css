@@ -1,0 +1,95 @@
+/*
+|--------------------------------------------------------------------------
+| Bootstrap Overrides
+|-------------------------------------------------------------------------
+*/
+
+@media (min-width: 768px) {
+  .navbar-header {
+    padding-left: 0;
+  }
+}
+
+
+.navbar h1, .navbar-brand {
+  font-size: 24px;
+  margin: 0;
+}
+
+div.pagination {
+  margin-top: 0;
+  float: right;
+}
+
+p {
+  font-size: 16px;
+  line-height: 23px;
+  margin: 0 0 23px 0;
+}
+
+hr {
+  margin-top: 10px;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Custom Styles
+|--------------------------------------------------------------------------
+*/
+
+.pull-center {
+  text-align: center;
+}
+
+h1:first-child,
+h2:first-child {
+  margin-top: 0;
+}
+
+.img-wrapper .thumbnail {
+  margin-bottom: 23px;
+}
+
+.date {
+  padding-right: 10px;
+  opacity: 0.6;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=60);
+}
+
+.btn-read-more {
+  margin-bottom: 0;
+}
+
+.tags, aside ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tags {
+  margin-bottom: 15px;
+}
+
+.post .tags {
+  margin-bottom: 15px;
+}
+
+.tags li {
+  margin-bottom: 6px;
+}
+
+.tags li {
+  display: inline-block;
+}
+
+aside .tags li:last-child {
+  margin-bottom: 0;
+}
+
+.social-profiles a {
+  font-size: 16px;
+}
+
+.work .thumbnail {
+  margin-bottom: 15px;
+}

@@ -1,0 +1,19 @@
+/* Load Google Fonts */
+@import url(//fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans:400,700);
+
+h1, h3, h4 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+h1 { 
+    font-size: 32px;
+}
+
+body, h2, p {
+    font-family: 'Open Sans', serif;
+}
+
+h2 {
+    text-transform: uppercase;
+}

@@ -1,0 +1,27 @@
+/* Load Google Fonts */
+@import url(//fonts.googleapis.com/css?family=Abel|Ubuntu);
+
+h1, h2, h3, h4 {
+    font-family: 'Abel', cursive;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+body, p {
+    font-family: 'Ubuntu', sans-serif;
+}
