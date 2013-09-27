@@ -20,8 +20,3 @@ Route::get('/work', function()
 {
     return View::make(theme_view('work'));
 });
-
-Route::get('/tags', function()
-{
-    return View::make(theme_view('tags'));
-});
