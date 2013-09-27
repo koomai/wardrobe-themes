@@ -1,0 +1,15 @@
+/* Load Google Fonts */
+@import url(//fonts.googleapis.com/css?family=Oswald:400|Lato:400,700,400italic);
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+body, p {
+    font-family: 'Lato', sans-serif;
+}

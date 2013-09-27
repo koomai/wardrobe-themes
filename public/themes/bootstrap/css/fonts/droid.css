@@ -1,0 +1,27 @@
+/* Load Google Fonts */
+@import url(//fonts.googleapis.com/css?family=Crete+Round|Droid+Serif:400,700italic);
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Crete Round', sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+body, p {
+    font-family: 'Droid Serif', serif;
+    font-size: 15px;
+}
