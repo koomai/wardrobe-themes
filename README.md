@@ -7,23 +7,23 @@ The goal is to add more themes based on other frameworks.
 
 ###How to Install###
 1. Assuming you have already installed Wardrobe, add this package to your composer.json file
-          ```
+
           "koomai/wardrobe-themes" : "dev-master"
-          ```
+          
 2. Run *composer update* to install
 3. Add the Service Provider to *config/app.php* (at the end of the *providers* array)
-          ```
+
           'Koomai\WardrobeThemes\WardrobeThemesServiceProvider',
-          ```
 4. Publish this package's configuration file
-          ```
+
           php artisan wardrobethemes:config
-          ```
 5. Copy this package's themes to the *public/themes* folder
-          ```
+          
           php artisan wardrobethemes:assets
-          ```
-6. In your Wardrobe config file *(config/packages/wardrobe/core/wardrobe.php)* set the theme to one of the new themes in *public/themes* folder (currently just *bootstrap*)
+
+Note: The artisan commands will overwrite previous files. If you've made custom modifications, do not run these commands without backing up your Wardrobe Themes config file (in config/packages) and themes directory (in public/themes)
+
+In your Wardrobe config file *(config/packages/wardrobe/core/wardrobe.php)* set the theme to one of the new themes in *public/themes* folder (currently just *bootstrap*)
 
 ###Configuration###
 
