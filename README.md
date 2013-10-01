@@ -10,7 +10,10 @@ The goal is to add more themes based on other frameworks.
 
           "koomai/wardrobe-themes" : "dev-master"
           
-2. Run *composer update* to install
+2. Run *composer update* to install. Alternatively you can install it directly via composer on your Wardrobe installation:
+
+          composer require koomai/wardrobe-themes:dev-master
+
 3. Add the Service Provider to *config/app.php* (at the end of the *providers* array)
 
           'Koomai\WardrobeThemes\WardrobeThemesServiceProvider',
