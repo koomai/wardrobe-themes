@@ -6,21 +6,17 @@ This package currently contains a basic two-column theme for [Wardrobe](http://w
 The goal is to add more themes based on other frameworks.
 
 ###How to Install###
-1. Assuming you have already installed Wardrobe, add this package to your composer.json file
-
-          "koomai/wardrobe-themes" : "dev-master"
-          
-2. Run *composer update* to install. Alternatively you can install it directly via composer on your Wardrobe installation:
+1. Run *composer update* to install. Alternatively you can install it directly via composer on your Wardrobe installation:
 
           composer require koomai/wardrobe-themes:dev-master
 
-3. Add the Service Provider to *config/app.php* (at the end of the *providers* array)
+2. Add the Service Provider to *config/app.php* (at the end of the *providers* array)
 
           'Koomai\WardrobeThemes\WardrobeThemesServiceProvider',
-4. Publish this package's configuration file
+3. Publish this package's configuration file
 
           php artisan wardrobethemes:config
-5. Copy this package's themes to the *public/themes* folder
+4. Copy this package's themes to the *public/themes* folder
           
           php artisan wardrobethemes:assets
 
