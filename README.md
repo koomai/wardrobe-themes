@@ -1,6 +1,10 @@
 Themes for Wardrobe CMS
 ================
 
+### DEPRECATED
+
+This package is no longer maintained.
+
 This package currently contains a basic two-column theme for [Wardrobe](http://wardrobecms.com). It uses most of Bootstrap 3's default styles with minimal overrides. Bootstrap 3 is designed to be mobile-first, so this theme plays nice with smaller screens. It also can be easily configured to use [Bootswatch](http://bootswatch.com) themes - see **Configuration**.
 
 The goal is to add more themes based on other frameworks.
